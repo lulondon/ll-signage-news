@@ -1,0 +1,6 @@
+{
+  "news": {
+    "apiKey": "xxxxxxxxxxxxxxxxxx",
+    "refreshInterval": 480000
+  }
+}
