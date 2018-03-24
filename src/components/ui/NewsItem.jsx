@@ -26,8 +26,9 @@ class NewsItem extends Component {
             <h5 className='newsitem-headline'>{title}</h5>
             <p className='newsitem-description'>{description}</p>
             <div className='mt-auto'>
-              <p className='newsitem-info'>{author}, </p>
-              <p className='newsitem-info'>Last updated at {formatDate(publishedAt)}</p>
+              <p className='newsitem-info'>{author}</p>
+              <p className='newsitem-info'>&nbsp;|&nbsp;</p>
+              <p className='newsitem-info'>{formatDate(publishedAt)}</p>
             </div>
           </div>
         </div>

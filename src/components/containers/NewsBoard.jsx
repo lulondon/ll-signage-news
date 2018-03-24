@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
 
-// import axios from 'axios'
+import axios from 'axios'
 
 import { news } from '../../../config/config.json'
-import { articles as testArticles } from '../../../testdata.json'
 
 import NewsBoard from '../ui/NewsBoard'
 
@@ -23,29 +22,23 @@ class NewsBoardContainer extends Component {
   loadData() {
     this.setState({ loading: true })
 
-    // const { apiKey } = news
-    //
-    // axios.get('https://newsapi.org/v2/top-headlines', {
-    //   params: {
-    //     sources: 'bbc-news',
-    //     apiKey
-    //   }
-    // })
-    //   .then(response => this.setState({
-    //     articles: response.data.articles,
-    //     loading: false
-    //   }))
-    //   .catch(error => this.setState({
-    //     error,
-    //     loading: false
-    //   }))
+    const { apiKey } = news
 
-    setTimeout(() => {
-      this.setState({
-        articles: testArticles,
+    axios.get('https://newsapi.org/v2/top-headlines', {
+      params: {
+        sources: 'bbc-news,reuters',
+        pageSize: 10,
+        apiKey
+      }
+    })
+      .then(response => this.setState({
+        articles: response.data.articles,
         loading: false
-      })
-    }, 300)
+      }))
+      .catch(error => this.setState({
+        error,
+        loading: false
+      }))
   }
 
   componentDidMount() {

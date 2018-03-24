@@ -1,12 +1,13 @@
 .board {
   display: grid;
-  grid-gap: 32px;
+  grid-gap: 24px;
   grid-template-columns: 2fr 2fr;
 }
 
 .board-attribution {
   position: absolute;
   bottom: 12px;
+  right: 12px;
   font-size: 0.6rem;
   margin: 0;
 }
