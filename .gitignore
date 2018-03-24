@@ -57,5 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# macOS junk
+.DS_Store
+
 # JSON config
 config.json
