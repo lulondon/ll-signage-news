@@ -1,12 +1,14 @@
 @import '~bootstrap/scss/bootstrap.scss';
 
-@import './NewsBoard.scss';
-@import './NewsItem.scss';
-
 @font-face{
     font-family: 'DIN Round Pro Thin';
     src: url('../fonts/DINRoundPro-Thin.woff') format('woff'),
          url('../fonts/DINRoundPro-Thin.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -19,4 +21,8 @@ div#screen-wrapper {
   height: 1080px;
   width: 1920px;
   outline: 1px solid #000;
+  position: relative;
 }
+
+@import './NewsBoard.scss';
+@import './NewsItem.scss';

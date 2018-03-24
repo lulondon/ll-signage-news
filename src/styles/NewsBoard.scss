@@ -1,6 +1,6 @@
 .board {
   display: grid;
-  grid-gap: 50px;
+  grid-gap: 32px;
   grid-template-columns: 2fr 2fr;
 }
 
@@ -8,4 +8,12 @@
   position: absolute;
   bottom: 12px;
   font-size: 0.6rem;
+  margin: 0;
+}
+
+.board-page-header {
+  background-color: #B70062;
+  padding: 8px;
+  display: inline-block;
+  border-bottom-right-radius: 0.25rem;
 }

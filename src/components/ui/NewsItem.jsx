@@ -22,7 +22,7 @@ class NewsItem extends Component {
           <div className='col-sm-4'>
             <img src={urlToImage} className='newsitem-thumbnail' alt={title} />
           </div>
-          <div className='col-sm-8 d-flex flex-column align-items-start justify-content-left'>
+          <div className='col-sm-8 d-flex flex-column align-items-start'>
             <h5 className='newsitem-headline'>{title}</h5>
             <p className='newsitem-description'>{description}</p>
             <div className='mt-auto'>

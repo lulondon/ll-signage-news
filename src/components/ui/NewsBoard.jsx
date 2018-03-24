@@ -18,9 +18,7 @@ class NewsBoard extends Component {
           ? <div className='loading'>{ loading }</div>
           : null
         }
-
-        <h3>In the news</h3>
-        <div className='container-fluid board my-2'>
+        <div className='container-fluid my-2 board'>
             {
               articles.map(article =>
                 <NewsItem key={article.title} article={article} />)
