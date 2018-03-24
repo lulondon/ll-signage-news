@@ -1,0 +1,126 @@
+{
+  "status": "ok",
+  "totalResults": 10,
+  "articles": [
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "French police 'hero' dies of wounds",
+      "description": "A French police officer who swapped places with a hostage in a supermarket siege dies of his injuries.",
+      "url": "http://www.bbc.co.uk/news/world-europe-43525267",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/7A23/production/_97176213_breaking_news_bigger.png",
+      "publishedAt": "2018-03-24T05:11:56Z"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Clashes after Catalan leaders detained",
+      "description": "Thousands rally in Barcelona and other cities after a Spanish judge puts five Catalan leaders in jail.",
+      "url": "http://www.bbc.co.uk/news/world-europe-43523811",
+      "urlToImage": "https://ichef.bbci.co.uk/images/ic/1024x576/p0624xxk.jpg",
+      "publishedAt": "2018-03-24T04:55:23Z"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Skripal 'regretted being double agent'",
+      "description": "A former classmate says the spy told him he even wrote to Vladimir Putin asking to come back to Russia.",
+      "url": "http://www.bbc.co.uk/news/world-europe-43519494",
+      "urlToImage": "https://ichef-1.bbci.co.uk/news/1024/branded_news/7822/production/_100545703_p0623ww8.jpg",
+      "publishedAt": "2018-03-24T03:01:34Z"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Mount Etna is 'sliding towards the sea'",
+      "description": "Measurements show the entire bulk of Europe's most active volcano is edging eastwards, Scientists say.",
+      "url": "http://www.bbc.co.uk/news/science-environment-43522169",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/165B6/production/_100547519_2.jpg",
+      "publishedAt": "2018-03-24T02:35:35Z"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Students get stones to ward off shooters",
+      "description": "The buckets of stones in classrooms could ward off a gunman, says a Pennsylvania school official.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-43523797",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/17ED5/production/_100550089_grab1.png",
+      "publishedAt": "2018-03-24T01:55:32Z"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "The week Facebook's value plunged $58bn",
+      "description": "Social media giant faces ire of politicians, investors, clients and users after historic data breach",
+      "url": "http://www.bbc.co.uk/news/business-43517995",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/16BF6/production/_100547139_gettyimages-669889770.jpg",
+      "publishedAt": "2018-03-23T22:23:17Z"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "US family found dead in Mexican resort",
+      "description": "Police say the Sharps did not suffer any traumatic injury and no foul play is suspected.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-43523000",
+      "urlToImage": "https://ichef-1.bbci.co.uk/news/1024/branded_news/168EA/production/_100549329_family2.jpg",
+      "publishedAt": "2018-03-23T21:33:13Z"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Elon Musk pulls brands from Facebook",
+      "description": "Entrepreneur Elon Musk has the official Facebook pages for his Tesla and SpaceX companies deleted.",
+      "url": "http://www.bbc.co.uk/news/technology-43514648",
+      "urlToImage": "https://ichef-1.bbci.co.uk/news/1024/branded_news/3538/production/_100542631_mediaitem100542627.jpg",
+      "publishedAt": "2018-03-23T17:20:33Z"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Trump 'tried to pay for sex' - ex-model",
+      "description": "Karen McDougal says she had a 10-month affair with Donald Trump in 2006.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-43514065",
+      "urlToImage": "https://ichef-1.bbci.co.uk/news/1024/branded_news/14553/production/_100538238_gettyimages-96481188.jpg",
+      "publishedAt": "2018-03-23T13:26:03Z"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "US signs $1.3tn deal to avoid shutdown",
+      "description": "President Trump is expected to sign it into law ahead of a Friday deadline to fund the government.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-43505059",
+      "urlToImage": "https://ichef-1.bbci.co.uk/news/1024/branded_news/026F/production/_100532600_tv044478132.jpg",
+      "publishedAt": "2018-03-23T09:53:00Z"
+    }
+  ]
+}

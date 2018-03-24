@@ -1,0 +1,11 @@
+.board {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: 2fr 2fr;
+}
+
+.board-attribution {
+  position: absolute;
+  bottom: 12px;
+  font-size: 0.6rem;
+}

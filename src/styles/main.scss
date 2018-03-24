@@ -1,4 +1,22 @@
-@import '~bootstrap/scss/bootstrap.scss'
+@import '~bootstrap/scss/bootstrap.scss';
 
-@import './NewsBoard.scss'
-@import './NewsItem.scss'
+@import './NewsBoard.scss';
+@import './NewsItem.scss';
+
+@font-face{
+    font-family: 'DIN Round Pro Thin';
+    src: url('../fonts/DINRoundPro-Thin.woff') format('woff'),
+         url('../fonts/DINRoundPro-Thin.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+body {
+  background-color: #361163;
+  color: white;
+  font-family: 'DIN Round Pro Thin' !important;
+}
+
+div#screen-wrapper {
+  height: 1080px;
+  width: 1920px;
+  outline: 1px solid #000;
+}

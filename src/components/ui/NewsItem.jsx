@@ -1,5 +1,11 @@
 import React, { Component } from 'react'
 
+const zeroPad = n => (n < 10 ? `0${n}` : n)
+const formatDate = (rawDate) => {
+  const date = new Date(rawDate)
+  return `${zeroPad(date.getHours())}:${zeroPad(date.getMinutes())} on ${date.getFullYear()}-${zeroPad(date.getMonth() + 1)}-${zeroPad(date.getDate())}`
+}
+
 class NewsItem extends Component {
   render() {
     const {
@@ -7,22 +13,22 @@ class NewsItem extends Component {
       author,
       description,
       urlToImage,
-      publishedAt 
+      publishedAt
     } = this.props.article
-
-    console.log(this.props.article)
 
     return (
       <div className='container'>
         <div className='row'>
-          <div className='col-sm-3 mr-2'>
-            <img src={urlToImage} alt={title} />
+          <div className='col-sm-4'>
+            <img src={urlToImage} className='newsitem-thumbnail' alt={title} />
           </div>
-          <div className='col-sm-9'>
-            <h5 className='title'>{title}</h5>
-            <p className='description'>{description}</p>
-            <p className='author'>{author}</p>
-            <p className='date'>{publishedAt}</p>
+          <div className='col-sm-8 d-flex flex-column align-items-start justify-content-left'>
+            <h5 className='newsitem-headline'>{title}</h5>
+            <p className='newsitem-description'>{description}</p>
+            <div className='mt-auto'>
+              <p className='newsitem-info'>{author}, </p>
+              <p className='newsitem-info'>Last updated at {formatDate(publishedAt)}</p>
+            </div>
           </div>
         </div>
       </div>
