@@ -1,4 +1,5 @@
 {
+  "moduleName": "news",
   "news": {
     "apiKey": "xxxxxxxxxxxxxxxxxx",
     "refreshInterval": 480000

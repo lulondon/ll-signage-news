@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 
 import axios from 'axios'
 
-import { news } from '../../../config/config.json'
+import { news } from '../../../../config/config.json'
 
-import NewsBoard from '../ui/NewsBoard'
+import NewsBoard from '../../ui/news/NewsBoard'
 
 class NewsBoardContainer extends Component {
   constructor() {

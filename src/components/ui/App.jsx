@@ -1,6 +1,6 @@
 import React from 'react'
 
-import NewsBoard from '../containers/NewsBoard'
+import NewsBoard from '../containers/news/NewsBoard'
 
 const App = () =>
   <div id='screen-wrapper'>
