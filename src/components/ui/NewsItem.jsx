@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
 
+const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+
 const zeroPad = n => (n < 10 ? `0${n}` : n)
 const formatDate = (rawDate) => {
   const date = new Date(rawDate)
-  return `${zeroPad(date.getHours())}:${zeroPad(date.getMinutes())} on ${date.getFullYear()}-${zeroPad(date.getMonth() + 1)}-${zeroPad(date.getDate())}`
+  return `${zeroPad(date.getHours())}:${zeroPad(date.getMinutes())} on ${days[date.getDay()]} ${zeroPad(date.getDate())} ${months[date.getMonth()]} ${date.getFullYear()}`
 }
 
 class NewsItem extends Component {

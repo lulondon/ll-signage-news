@@ -8,6 +8,7 @@ class NewsBoard extends Component {
 
     return (
       <div className='m-4'>
+        <h3 className='board-page-header my-3'>In the news</h3>
         {
           error
           ? <div className='error'>{ error }</div>
