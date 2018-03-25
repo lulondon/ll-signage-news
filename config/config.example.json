@@ -1,5 +1,6 @@
 {
   "moduleName": "news",
+  "sassImports": "@import './news/NewsBoard.scss';\n@import './news/NewsItem.scss';\n",
   "news": {
     "apiKey": "xxxxxxxxxxxxxxxxxx",
     "refreshInterval": 480000

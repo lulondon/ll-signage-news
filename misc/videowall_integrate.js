@@ -3,9 +3,9 @@
 
 const fs = require('fs-extra')
 
-const videowall = process.env.VIDEOWALL
+const { moduleName, sassImports } = require('../config/config.json')
 
-const { moduleName } = require('../config/config.json')
+const videowall = process.env.VIDEOWALL
 
 const targetSass = `${videowall}/src/styles/main.scss`
 const componentsUi = `src/components/ui/${moduleName}`
@@ -47,10 +47,10 @@ fs.copy(`./${styles}`, `${videowall}/${styles}`, (err) => {
 fs.readFile(targetSass, 'utf8', (readErr, data) => {
   if (readErr) throw Error(readErr)
 
-  if (data.match(/NewsBoard/g)) {
+  if (data.match(sassImports)) {
     console.log('[append] Sass @import statements...')
   } else {
-    fs.appendFile(targetSass, '@import \'./news/NewsBoard.scss\';\n@import \'./news/NewsItem.scss\';\n\n', (appendErr) => {
+    fs.appendFile(targetSass, sassImports, (appendErr) => {
       if (appendErr) throw Error(appendErr)
     })
   }
