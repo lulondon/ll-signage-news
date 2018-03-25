@@ -5,7 +5,7 @@ const fs = require('fs-extra')
 
 const videowall = process.env.VIDEOWALL
 
-const moduleName = 'news'
+const { moduleName } = require('../config/config.json')
 
 const targetSass = `${videowall}/src/styles/main.scss`
 const componentsUi = `src/components/ui/${moduleName}`
